@@ -3,4 +3,9 @@ name = "day1"
 version = "0.1.0"
 edition = "2021"
 
+[features]
+default = ["second"]
+first = []
+second = []
+
 [dependencies]
