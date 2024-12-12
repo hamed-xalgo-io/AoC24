@@ -9,7 +9,7 @@ resp = requests.get(
 )
 
 data = resp.json()
-max_days = 11
+max_days = 12
 for member in data["members"].values():
 
     completed_days = member["completion_day_level"]
