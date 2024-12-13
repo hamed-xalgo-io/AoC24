@@ -1,0 +1,12 @@
+[package]
+name = "day13"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["second"]
+first = []
+second = []
+
+[dependencies]
+pathfinding = "4.12"
