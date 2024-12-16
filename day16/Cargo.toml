@@ -1,0 +1,16 @@
+[package]
+name = "day16"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+pathfinding = "4.12"
+
+[[bin]]
+name = "part1"
+path = "src/part1.rs"
+
+[[bin]]
+name = "part2"
+path = "src/part2.rs"
